@@ -1,0 +1,58 @@
+
+.whatsapp .app-chat .app-chat-contacts .sidebar-body {
+  height: calc((100vh - 1rem) - 4.49rem);
+}
+.whatsapp .app-chat .app-chat-contacts {
+  /* position: absolute; */
+  height: calc(100vh - 1rem);
+}
+.whatsapp .app-chat .app-chat-history .chat-history-body {
+  height: calc(100vh - 12rem);
+}
+.whatsapp .app-chat .app-chat-history {
+  position: relative;
+  height: calc(100vh - 1rem);
+  transition: all .25s ease
+}
+.whatsapp .app-chat {
+  position: relative;
+  height: calc(100vh - 3.5rem)
+}
+.whatsapp .send-msg-btn{
+  background-color:rgb(255, 193, 7);
+  border: none;
+}
+.whatsapp .send-msg-btn:hover{
+  background-color:rgb(211, 160, 8)!important;
+}
+.whatsapp .app-chat .app-chat-history .chat-history .chat-message.chat-message-right .chat-message-text{
+  background-color:gray!important; 
+}
+.person-chat .row{
+  border:1px solid rgb(182, 179, 179);
+
+
+}
+.person-chat .row:hover{
+  background-color: rgba(220, 220, 220, 0.267);
+
+}
+.light-style .app-chat .app-chat-history .chat-history-body .chat-history .chat-message .chat-message-text {
+
+ background-color:rgb(255, 193, 7); 
+ color: rgb(0, 0, 0);
+}
+@media only screen and (max-width: 576px) {
+  .whatsapp .app-chat .app-chat-history .chat-history .chat-message.chat-message-right .chat-message-text{
+    font-size: 10px; 
+  }
+  .whatsapp .light-style .app-chat .app-chat-history .chat-history-body .chat-history .chat-message .chat-message-text {
+    font-size: 10px;
+  }
+  .form-send-message input.message-input{
+    font-size: 10px !important;
+  }
+  .whatsapp .send-msg-btn {
+    padding: 3px 10px;
+  }
+}
